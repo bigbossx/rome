@@ -1,0 +1,48 @@
+{
+  "name": "rome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "vision": "bin/vision.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "echo running prepublish",
+    "prepare": "echo running prepare",
+    "prepublishOnly": "echo running prepublishOnly",
+    "prepack": "echo running prepack",
+    "postpack": "echo running postpack",
+    "publish": "echo running publish",
+    "preinstall": "echo running preinstall",
+    "install": "echo running install",
+    "preuninstall": "echo running preuninstall",
+    "postuninstall": "echo running postuninstall",
+    "preversion": "echo running preversion",
+    "version": "echo running version",
+    "postversion": "echo running postversion",
+    "pretest": "echo running pretest",
+    "prestop": "echo running prestop",
+    "prestart": "echo running prestart",
+    "prerestart": "echo running prerestart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisonM/rome.git"
+  },
+  "author": "vision",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisonM/rome/issues"
+  },
+  "homepage": "https://github.com/VisonM/rome#readme",
+  "dependencies": {
+    "import-jsx": "^3.1.0",
+    "ink": "^2.7.1",
+    "meow": "^6.0.1",
+    "open": "^7.0.3",
+    "react": "^16.13.0",
+    "terminal-image": "^0.2.0",
+    "typewriter-effect": "^2.13.0"
+  }
+}
