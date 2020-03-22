@@ -1,7 +1,7 @@
 const React = require("react");
-const { Box, Text } = require("ink");
+const { Box, Text, Color } = require("ink");
 
-module.exports = class Introdution extends React.Component {
+class App extends React.Component {
   constructor() {
     super();
 
@@ -26,3 +26,5 @@ module.exports = class Introdution extends React.Component {
     clearInterval(this.timer);
   }
 };
+
+module.exports = App
